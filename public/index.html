@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <title>Chatting 연습</title>
+</head>
+<body>
+    <form id = "chatform" onsubmit="return false">
+        <div style="display: inline-block;">
+            <input type="text" id="input_box" contenteditable="true" autocomplete="off">
+        </div>
+        <input type="submit" id="sendmsg"  class="btn btn-warning btn-sm" value="Send">
+    </form>
+    <div>
+        <div id="msg"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

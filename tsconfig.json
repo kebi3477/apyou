@@ -1,0 +1,8 @@
+{
+    "files": [
+        "server/src/*.ts",
+    ],
+    "compilerOptions": {
+        "target": "es5"
+    }
+}
